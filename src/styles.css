@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#root{
+  background-color: #666666;
+}
+
+nav{
+  background-color: #ffffff;
+}
+
+.nav-link{
+  color: #000000 !important;
+}
+
+.contentBackground{
+  padding-top: 100px;
+  background-color: #e2e1a5;
+}
+
+.numberBoxes{
+  text-align: center;
+  background-color: #5cb7bb;
+}
+
+.letterBoxes{
+  text-align: center;
+  background-color: #44507d;
+}
+
+h1{
+  padding-top: 55px;
+  padding-bottom: 55px;
+  font-size: 65px !important;
+  color: #ffffff !important;
+}
