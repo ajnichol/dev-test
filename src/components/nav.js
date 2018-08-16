@@ -1,8 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import $ from 'jquery';
 
 
 class Nav extends React.Component {
+
+  componentDidMount(){
+    if($(window).width() < 428){
+      $('nav').removeClass('fixed-top');
+    }
+    else{
+      $('nav').addClass('fixed-top');
+    }
+  }
 
   render() {
     return(

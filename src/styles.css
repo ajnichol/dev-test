@@ -25,6 +25,10 @@ nav{
   background-color: #5cb7bb;
 }
 
+.letterSection{
+  margin-top: 30px;
+}
+
 .letterBoxes{
   text-align: center;
   background-color: #44507d;
@@ -35,4 +39,65 @@ h1{
   padding-bottom: 55px;
   font-size: 65px !important;
   color: #ffffff !important;
+}
+
+.tabSection{
+  margin-top: 30px;
+}
+
+button{
+  background-color: #85c389;
+  border: none;
+  color: white;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+button:nth-child(2){
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.contentBox{
+  background-color: #447d48;
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+
+p{
+  text-align: left;
+  color: #ffffff;
+}
+
+.footerSection{
+  background-color: #44507d;
+}
+
+footer p{
+  text-align: center !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 575px) {
+  .contentBox{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 433px) {
+  button{
+    padding: 10px 25px;
+  }
+
+  button:nth-child(2){
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 }
